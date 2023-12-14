@@ -279,10 +279,13 @@ header .navbar ul li a:hover{
     height:100%;
     width:100%;
     object-fit: cover;
+    object-position: top;
+	transition: ease-in-out 4s;
 }
 
 .portfolio .box-container .box:hover img{
-    transform: scale(1.2);
+/*     transform: scale(1.2); */
+    object-position: bottom;
 }
 
 .contact .row{
