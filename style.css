@@ -276,16 +276,16 @@ header .navbar ul li a:hover{
 
 }
 .portfolio .box-container .box img{
-    height:100%;
-    width:100%;
-    object-fit: cover;
-    object-position: top;
-	transition: ease-in-out 4s;
+     width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top center;
+        transition: all 1s ease-in-out;
 }
 
 .portfolio .box-container .box:hover img{
 /*     transform: scale(1.2); */
-    object-position: bottom;
+    object-position: bottom center;
 }
 
 .contact .row{
